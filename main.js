@@ -12,15 +12,16 @@ while (true) {
   var rpsls = ["rock", "paper", "scissors", "lizard", "spock"];
   var computer = rpsls[Math.floor(Math.random() * rpsls.length)];
 
+  //Function to determine tie, winner, loser and input validity
   function winner(computer, user_select) {
-    if (computer === user_select.toLowerCase()) {
+    if (computer === user_select) {
       tie++; result = "You've tied!";
     } else if (computer === "rock" && user_select === "paper") {
       win++; result = "Paper covers Rock...You win!";
     } else if (computer === "rock" && user_select === "scissors") {
       loss++; result = "Rock crushes Scissors...You lose!";
     } else if (computer === "rock" && user_select === "lizard") {
-      loss = loss + 1, result = "Rock crushes Lizard...You lose!";
+      loss++; result = "Rock crushes Lizard...You lose!";
     } else if (computer === "rock" && user_select === "spock") {
       win++; result = "Spock vaporizes Rock...You win!";
     } else if (computer === "paper" && user_select === "rock") {
