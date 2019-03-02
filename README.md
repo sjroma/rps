@@ -33,14 +33,14 @@ and, as it always has, rock crushes scissors.
 
 ### To Do  
 - [x] Add Lizard and Spock to make the game more interesting (plus I think it's funny)  
-- [ ] Ignore response case  
-- [ ] Check for valid input  
-- [ ] Make it so player doesn't have to open the console to play/see results  
-- [ ] Loop to continue play until player wants to quit  
-- [ ] Track wins, losses and ties  
+- [x] Ignore response case  
+- [x] Check for valid input  
+- [x] Make it so player doesn't have to open the console to play/see results  
+- [x] Loop to continue play until player wants to quit  
+- [x] Track wins, losses and ties  
 - [ ] Write to the page instead of having Alert pop-ups  
 - [ ] Enhancement - allow choice of playing against the computer, or two players head to head  
   - [ ] If playing head to head prompt for, and display, user's names  
 
 
-##### ~/tiy/week03/rps  #rps
+##### ~/tiy/week03/rps  
