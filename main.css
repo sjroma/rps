@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
 	background-color: #E0B78D;  /* burlywood */
 	font-family: 'Arial Rounded MT Bold', sans-serif;
 	height: 100%;
@@ -7,49 +6,19 @@ body {
   padding: 0;
 }
 
-.container {
-  min-height: 100%;
-  position: relative;
-}
-
-.header {
-/*  background: #E0B78D;*/
-  padding: 10px;
-}
-
-.body {
-  color: #E0B78D;  
-  padding: 20px;
-  padding-bottom: 60px;  /* Height of the footer */
-}
-
-.footer {
-	bottom: 0;
-	color: #E0B78D;  /* color of the font */
-	height: 60px;  /* Height of the footer */
-  position: absolute;
-/*	text-shadow: 1px 1px 2px #000;*/
-	text-transform: lowercase;
-  width: 100%;
-}
-
 h1, h4 {
 	text-shadow: 1px 1px 2px #000;
 }
 
-/* inner shadows (change body background-color to #ABABAB) 
-h1, h4 {
-	background-color: #565656;
-	color: transparent;
-	text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+#header {
+	bottom: 0;
+	color: #E0B78D;
 	text-transform: lowercase;
-	-webkit-background-clip: text;
-	   -moz-background-clip: text;
-	        background-clip: text;
+  width: 100%;
 }
-/* inner shadows end */
 
-/*references; 
-http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
-https://mayvendev.com/blog/inner-shadows-in-css-images-text-and-beyond
-*/
+#rules {
+  color: #E0B78D;  
+  padding: 20px;
+  padding-bottom: 60px;
+}
